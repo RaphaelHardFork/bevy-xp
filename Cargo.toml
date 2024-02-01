@@ -1,0 +1,13 @@
+[package]
+name = "bevy-xp"
+version = "0.1.0"
+edition = "2021"
+
+
+[lints.rust]
+unsafe-code = "forbid"
+unused = "allow"       # DEV
+
+[dependencies]
+bevy = "0.12.1"
+rand = "0.8.5"
