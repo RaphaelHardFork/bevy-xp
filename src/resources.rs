@@ -3,7 +3,7 @@ use bevy::ecs::system::Resource;
 use bevy::time::{Timer, TimerMode};
 
 #[derive(Resource)]
-struct Score {
+pub struct Score {
     pub value: u32,
 }
 
@@ -14,7 +14,7 @@ impl Default for Score {
 }
 
 #[derive(Resource, Debug)]
-struct HighScores {
+pub struct HighScores {
     pub scores: Vec<(String, u32)>,
 }
 
@@ -25,7 +25,7 @@ impl Default for HighScores {
 }
 
 #[derive(Resource)]
-struct StarSpawnTimer {
+pub struct StarSpawnTimer {
     pub timer: Timer,
 }
 
@@ -38,7 +38,7 @@ impl Default for StarSpawnTimer {
 }
 
 #[derive(Resource)]
-struct EnemySpawnTimer {
+pub struct EnemySpawnTimer {
     pub timer: Timer,
 }
 

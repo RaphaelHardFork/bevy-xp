@@ -16,7 +16,7 @@ const PLAYER_SPEED: f32 = 500.0;
 const NUMBER_OF_ENEMIES: usize = 4;
 const ENEMY_SIZE: f32 = 64.0;
 const ENEMY_SPEED: f32 = 200.0;
-const ENEMY_SPAWN_TIME: f32 = 0.25;
+const ENEMY_SPAWN_TIME: f32 = 5.0;
 
 // stars
 const NUMBER_OF_STARS: usize = 10;
