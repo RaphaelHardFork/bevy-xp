@@ -9,5 +9,5 @@ unsafe-code = "forbid"
 unused = "allow"       # DEV
 
 [dependencies]
-bevy = "0.12.1"
+bevy = { version = "0.12.1", features = ["wayland"] }
 rand = "0.8.5"
